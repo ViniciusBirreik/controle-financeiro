@@ -1,10 +1,15 @@
 import Global from "./styles/global";
+import Header from "./components/header";
+import Resume from "./components/resume";
+import Form from "./components/form";
 import React from "react";
 
 export default function App() {
     return(
         <>
-            <h1>App ...</h1>
+            <Header/>
+            <Resume/>
+            <Form/>
             <Global/>
         </>
     )
