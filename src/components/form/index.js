@@ -35,6 +35,7 @@ export default function Form() {
                     <C.input type="radio" id="rExpense" name="group1" onChange={() => setExpense(!expense)}></C.input>
                     <C.label htmlFor="rExpense">Saída</C.label>
                 </C.radiosGroup>
+                <C.button onClick={handleSave()}>ADICIONAR</C.button>
             </C.container>
         </>
     )
